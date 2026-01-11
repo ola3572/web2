@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2fd416;
+    background-image: url("images/2men.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.navbar {
+    
+    background-color: black;
+    padding-right: 10PX;
+    padding-left: 10PX;
+    font-family: sans-serif;
+}
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+    display: inline-block
+}
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+
+h1 {
+    color: hsl(120, 73%, 39%);
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+p {
+    color: hsl(257, 67%, 38%);
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+h3 {
+    color: hsl(83, 68%, 55%);
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
